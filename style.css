@@ -1,0 +1,37 @@
+.name_of_emotions{
+    animation-name: emotionlist;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@keyframes emotionlist{
+0%    {background-color: red; left: 0px;}
+5%    {background-color: orangered; left: 10px;}
+10%   {background-color: orange; left: 20px;}
+15%   {background-color: yellow; left: 30px;}
+20%   {background-color: yellowgreen; left: 40px;}
+25%   {background-color: green; left: 50px;}
+30%   {background-color: darkgreen; left: 40px;}
+35%   {background-color: darkcyan;left: 30px;}
+40%   {background-color: cyan; left: 20px;}
+45%   {background-color: lightblue; left: 10px;}
+50%   {background-color: blue; left: 0px;}
+55%   {background-color: darkblue; left: -10px;}
+60%   {background-color: darkmagenta; left: -20px;}
+65%   {background-color: darkviolet;left: -30px;}
+70%   {background-color: purple; left: -30px;}
+75%   {background-color: darkorchid; left: -40px;}
+80%   {background-color: deeppink; left: -50px;}
+85%   {background-color: palevioletred;left: -40px;}
+90%   {background-color: salmon; left: -30px;}
+95%   {background-color: pink; left: -20px;}
+100%  {background-color: red; left: -10px;}
+
+}
+
+body{
+    animation-name: movingtext;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
